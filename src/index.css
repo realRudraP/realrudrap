@@ -1,0 +1,29 @@
+:root {
+  --bg: #0b0f14;
+  --panel: #0f1621;
+  --border: #1e2a3a;
+
+  --text-main: #dce3ec;
+  --text-muted: #5f6e85;
+
+
+  --accent: #5fb3b3;      
+  --accent-soft: #3a8f9c; 
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body{
+  background-color: var(--bg);
+  color: var(--text-main);
+  font-family: "Ubuntu Mono", monospace;
+}
+
+#root {
+  min-height: 100vh;
+}
