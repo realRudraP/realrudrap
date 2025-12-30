@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Header from './components/layout/Header'
-import Main from './components/layout/Main'
-import Sidebar from './components/layout/Sidebar';
+import Header from './components/sections/Header'
+import Main from './components/Main'
+import Sidebar from './components/sections/Sidebar';
 import './App.css'
 function App(){
   const [activeSection, setActiveSection] = useState("home");
