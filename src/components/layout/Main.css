@@ -1,0 +1,21 @@
+.main {
+  flex: 1;
+  padding: 2rem 2.5rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  color: var(--accent);
+  font-size: 0.8rem;
+  margin-bottom: 0.75rem;
+}
+
+.section-text {
+  color: var(--text-main);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  max-width: 65ch;
+}
