@@ -38,6 +38,23 @@
   color: var(--accent);
 }
 
+.nav-link {
+  display: block;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.nav-link:hover {
+  color: var(--accent);
+}
+
+.nav-link.active {
+  color: var(--accent);
+}
+
+
 @media (max-width: 768px) {
   .sidebar {
     display: none;
