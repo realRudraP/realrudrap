@@ -1,0 +1,27 @@
+.links-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.links-list li {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.links-list span {
+  color: var(--text-main);
+  width: 80px;
+}
+
+.links-list a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.links-list a:hover {
+  text-decoration: underline;
+}
