@@ -30,13 +30,13 @@ export default function Home() {
     <li>
       <span>[github]</span>
       <a href="https://github.com/realRudraP" target="_blank" rel="noreferrer">
-        github.com/yourusername
+        github.com/realRudraP
       </a>
     </li>
     <li>
       <span>[linkedin]</span>
       <a href="https://linkedin.com/in/rudraponkshe" target="_blank" rel="noreferrer">
-        linkedin.com/in/yourprofile
+        linkedin.com/in/rudraponkshe
       </a>
     </li>
     <li>

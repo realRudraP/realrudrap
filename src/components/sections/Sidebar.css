@@ -2,10 +2,16 @@
   width: 220px;
   border-right: 1px solid var(--border);
   background-color: var(--panel);
+
+  position: sticky;
+  top: 60px; 
+  height: calc(100vh - 60px);
 }
 
 .sidebar-inner {
   padding: 1.5rem 1rem;
+  background-color: var(--panel);
+  height: 100%;
 }
 
 .sidebar-header {

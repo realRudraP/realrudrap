@@ -5,11 +5,19 @@ import "./Header.css"
 export default function Header() {
   return (
     <header>
-      <div className="header-left">
-      <Terminal/>
-      <p className="path">~/portfolio</p>
-    </div>
-      <p className="status">Last updated: 2 days ago</p>
-    </header>
+  <div className="header-left">
+    <Terminal size={16} />
+    <span className="path">~/portfolio</span>
+  </div>
+
+  <div className="header-center">
+    <span className="mobile-name">Rudra Ponkshe</span>
+  </div>
+
+  <div className="header-right">
+    <span className="status">Last updated: 2 days ago</span>
+  </div>
+</header>
+
   );
 }
