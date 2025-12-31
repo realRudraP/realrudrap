@@ -1,0 +1,37 @@
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.blog-item {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.blog-meta {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+}
+
+.blog-title {
+  font-size: 0.9rem;
+  margin: 0.25rem 0;
+}
+
+.blog-summary {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  max-width: 65ch;
+}
+
+.blog-tags {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tag {
+  font-size: 0.6rem;
+  color: var(--accent);
+}
