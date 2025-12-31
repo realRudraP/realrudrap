@@ -13,7 +13,7 @@ function App(){
         activeSection={activeSection}
         setActiveSection={setActiveSection}
       />
-      <Main activeSection={activeSection}/>
+      <Main setActiveSection={setActiveSection}/>
     </div>
     </>
   );

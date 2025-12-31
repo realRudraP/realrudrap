@@ -5,6 +5,9 @@
 
 .section {
   margin-bottom: 3rem;
+  scroll-margin-top: 80px;
+  opacity: 1;
+  transition: opacity 0.15s ease-in;
 }
 
 .section-title {
