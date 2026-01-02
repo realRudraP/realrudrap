@@ -2,7 +2,7 @@ import './Main.css'
 import Projects from './sections/Projects'
 import Home from './sections/Home'
 import Blog from './sections/Blog'
-
+import Contact from './sections/Contact'
 import { useEffect } from 'react';
 
 export default function Main({ setActiveSection }) {
@@ -31,10 +31,7 @@ export default function Main({ setActiveSection }) {
       <Home />
       <Projects />
       <Blog/>
-      <section id="contact" className="section">
-        <h2 className="section-title">$ cat contact.txt</h2>
-        <p className="section-text">Work in progress.</p>
-      </section>
+      <Contact/>
     </main>
   );
 }

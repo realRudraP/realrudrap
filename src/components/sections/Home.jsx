@@ -40,7 +40,7 @@ uid   Rudra Ponkshe &lt;rudra.ponkshe@protonmail.com&gt;
 
     <div className="whoami-links">
       <span>[gpg]</span>
-      <a href="/gpg-key.asc">download public key</a>
+      <a href="/rudra-ponkshe.asc">download public key</a>
     </div>
   </div>
   <p className="muted">

@@ -1,0 +1,59 @@
+.contact {
+  max-width: 720px;
+}
+
+.contact-terminal {
+  margin-top: 1.5rem;
+  padding: 1.25rem 1.5rem;
+
+  background-color: var(--panel);
+  border: 1px solid var(--border);
+
+  font-size: 0.75rem;
+}
+
+.contact-terminal .cmd {
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.contact-entry {
+  display: flex;
+  gap: 1.25rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.contact-entry .label {
+  width: 80px;
+  color: var(--text-muted);
+}
+
+.contact-entry .value {
+  color: var(--text-main);
+}
+
+.contact-entry a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.contact-entry a:hover {
+  text-decoration: underline;
+}
+
+.mono {
+  font-family: inherit;
+}
+
+
+@media (max-width: 640px) {
+  .contact-entry {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .contact-entry .label {
+    width: auto;
+  }
+}
