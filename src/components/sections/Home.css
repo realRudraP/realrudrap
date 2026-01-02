@@ -25,3 +25,82 @@
 .links-list a:hover {
   text-decoration: underline;
 }
+
+.identity-links {
+  list-style: none;
+  padding-left: 0;
+  margin: 1.5rem 0;
+}
+
+.identity-links li {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.identity-links span {
+  color: var(--text-main);
+  width: 80px;
+}
+
+.identity-links a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.identity-links a:hover {
+  text-decoration: underline;
+}
+
+
+
+.whoami {
+  max-width: 720px;
+}
+
+.whoami-prose p {
+  margin-bottom: 1.25rem;
+  line-height: 1.6;
+}
+
+.whoami-terminal {
+  margin-top: 2rem;
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  font-size: 0.75rem;
+}
+
+.cmd {
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+
+.output {
+  margin: 0 0 1rem 0;
+  color: var(--text-muted);
+  white-space: pre-wrap;
+}
+
+.whoami-links {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+.whoami-links span {
+  color: var(--text-muted);
+  width: 70px;
+}
+
+.whoami-links a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.whoami-links a:hover {
+  text-decoration: underline;
+}
