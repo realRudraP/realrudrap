@@ -14,9 +14,7 @@ export default function Header() {
     <span className="mobile-name">Rudra Ponkshe</span>
   </div>
 
-  <div className="header-right">
-    <span className="status">Last updated: 2 days ago</span>
-  </div>
+
 </header>
 
   );

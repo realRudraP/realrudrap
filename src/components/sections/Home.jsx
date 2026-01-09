@@ -1,7 +1,7 @@
 import './Home.css'
 export default function Home() {
   return (
-    <section className="whoami">
+    <section className="whoami" id='home'>
   <div className="whoami-prose">
     <p>
       Cybersecurity student focused on backend systems, infrastructure,
@@ -35,7 +35,7 @@ uid   Rudra Ponkshe &lt;rudra.ponkshe@protonmail.com&gt;
 
     <div className="whoami-links">
       <span>[keybase]</span>
-      <a href="https://keybase.io/litmus">keybase.io/litmus</a>
+      <a href="https://keybase.io/l1tmus">keybase.io/l1tmus</a>
     </div>
 
     <div className="whoami-links">

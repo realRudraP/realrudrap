@@ -1,0 +1,48 @@
+/* Container for the whole section */
+.gnupg {
+  margin-top: 3rem;
+  max-width: 900px;
+}
+
+/* One logical terminal interaction */
+.terminal-session {
+  margin-top: 0.95rem;  
+  padding: 1.5rem 1.75rem;
+  background-color: var(--panel);
+  border: 1px solid var(--border);
+}
+
+/* Individual command + output blocks */
+.terminal-block {
+  margin-bottom: 1.25rem;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  white-space: pre-wrap;
+}
+
+/* Highlight the command itself */
+.terminal-block::first-line {
+  color: var(--accent);
+}
+
+/* Remove trailing gap on last block */
+.terminal-block:last-child {
+  margin-bottom: 0;
+}
+
+/* Slight tightening for metadata-heavy sections */
+.gnupg .terminal-block {
+  letter-spacing: 0.01em;
+}
+
+/* Mobile adjustments */
+@media (max-width: 640px) {
+  .terminal-session {
+    padding: 1.25rem;
+  }
+
+  .terminal-block {
+    font-size: 0.75rem;
+  }
+}

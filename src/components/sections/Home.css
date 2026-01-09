@@ -63,14 +63,15 @@
 .whoami-prose p {
   margin-bottom: 1.25rem;
   line-height: 1.6;
+  font-size: 0.95rem;
 }
 
 .whoami-terminal {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   padding: 1.25rem;
   border: 1px solid var(--border);
   background: var(--panel);
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 
 .cmd {

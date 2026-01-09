@@ -3,6 +3,7 @@ import Projects from './sections/Projects'
 import Home from './sections/Home'
 import Blog from './sections/Blog'
 import Contact from './sections/Contact'
+import GnuPg from './sections/GnuPg'
 import { useEffect } from 'react';
 
 export default function Main({ setActiveSection }) {
@@ -32,6 +33,7 @@ export default function Main({ setActiveSection }) {
       <Projects />
       <Blog/>
       <Contact/>
+      <GnuPg/>
     </main>
   );
 }

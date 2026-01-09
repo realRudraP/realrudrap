@@ -4,7 +4,7 @@ export default function Sidebar({activeSection,setActiveSection}){
         {id:"home", label: "~/"},
         {id:"projects",label:"projects/"},
         {id:"blog", label:"blog/"},
-        {id:"gpg",label:".gnupg/"}
+        {id:"gnupg",label:".gnupg/"}
     ];
     return(
         <aside className="sidebar">
